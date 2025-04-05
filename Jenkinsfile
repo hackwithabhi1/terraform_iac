@@ -15,7 +15,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/hackwithabhi1/terraform.git'
+                git branch: 'main', url: 'https://github.com/hackwithabhi1/terraform_iac.git'
             }
         }
         stage('Terraform init') {
